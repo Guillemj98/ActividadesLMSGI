@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <videojuego>
+         <id>D98561271D</id>
+         <caracteristicas_videojuego>
+             <nombre>Monster Hunter World</nombre>
+             <fecha_creacion>26/1/2018</fecha_creacion>
+             <nota>9/10</nota>
+         </caracteristicas_videojuego>
+         <lista_programadores>
+             <Programador1>
+                 <DNI>12345678A</DNI>
+                 <nombre>Ted</nombre>
+                 <apellidos>Bundy</apellidos>
+                 <fecha_nacimiento>24/11/1946</fecha_nacimiento>
+                 <direccion>
+                     <tipos_de_via>Avenida</tipos_de_via>
+                     <nombre_via>Avenida falsa 123</nombre_via>
+                     <codigo_postal>31021</codigo_postal>
+                     <pais>USA</pais>
+                 </direccion>
+             </Programador1>
+             <Programador2>
+                 <DNI>87654321Z</DNI>
+                 <nombre>Jeffrey</nombre>
+                 <apellidos>Epstein</apellidos>
+                 <fecha_nacimiento>20/1/1953</fecha_nacimiento>
+                 <direccion>
+                     <tipos_de_via>Calle</tipos_de_via>
+                     <nombre_via>Tartaria</nombre_via>
+                     <codigo_postal>31221</codigo_postal>
+                     <pais>Desconocido</pais>
+                 </direccion>
+             </Programador2>
+         </lista_programadores>
+         <compania>
+             <Nombre>Capcom</Nombre>
+             <NIF>34353535253US</NIF>
+             <direccion>
+                 <tipos_de_via>Bulevard</tipos_de_via>
+                 <nombre_via>UwU</nombre_via>
+                 <codigo_postal>10000</codigo_postal>
+                 <pais>Japón</pais>
+             </direccion>
+         </compania>
+     </videojuego>
+ </root>

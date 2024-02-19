@@ -1,0 +1,50 @@
+{
+    "videojuego": {
+      "id": "D98561271D",
+      "caracteristicas_videojuego": {
+        "nombre": "Monster Hunter World",
+        "fecha_creacion": "26/1/2018",
+        "nota": "9/10"
+      },
+      "lista_programadores": [
+        {
+          "Programador1": {
+            "DNI": "12345678A",
+            "nombre": "Ted",
+            "apellidos": "Bundy",
+            "fecha_nacimiento": "24/11/1946",
+            "direccion": {
+              "tipos_de_via": "Avenida",
+              "nombre_via": "Avenida falsa 123",
+              "codigo_postal": "31021",
+              "pais": "USA"
+            }
+          }
+        },
+        {
+          "Programador2": {
+            "DNI": "87654321Z",
+            "nombre": "Jeffrey",
+            "apellidos": "Epstein",
+            "fecha_nacimiento": "20/1/1953",
+            "direccion": {
+              "tipos_de_via": "Calle",
+              "nombre_via": "Tartaria",
+              "codigo_postal": "31221",
+              "pais": "Desconocido"
+            }
+          }
+        }
+      ],
+      "compania": {
+        "Nombre": "Capcom",
+        "NIF": "34353535253US",
+        "direccion": {
+          "tipos_de_via": "Bulevard",
+          "nombre_via": "UwU",
+          "codigo_postal": "10000",
+          "pais": "Japón"
+        }
+      }
+    }
+  }
