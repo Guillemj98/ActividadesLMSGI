@@ -1,0 +1,20 @@
+<!ELEMENT biblioteca (nombre,seccion+)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT seccion (libro+)>
+<!ELEMENT libro (titulo,autor+,anio?,resumen?,editorial)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+
+<!ELEMENT editorial (codigo?,nombre,ciudad)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+
+<!ATTLIST biblioteca codigo CDATA  "B_67">
+<!ATTLIST seccion categoria (Novela | Ciencia-ficción | Aventura | Historia) #REQUIRED>
+<!ATTLIST libro id ID #REQUIRED>
+<!ATTLIST seccion pasillo CDATA #IMPLIED>
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ENTITY tolkien SYSTEM "J.R.R. Tolkien">

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE videojuego SYSTEM "Ejercicio_Aparte_DTD.dtd">
+
+<videojuego id="D98561271D">
+    <caracteristicas_videojuego>
+        <nombre>Persona 5 royal</nombre>
+        <fecha_creación>31/10/2019</fecha_creación>
+        <nota>9/10</nota>
+    </caracteristicas_videojuego>
+    <lista_programadores>
+            <Programador id="D1">
+                <DNI>12345678A</DNI>
+                <nombre>Micky </nombre>
+                <apeliidos>Mouse Empirico</apeliidos>
+                <fecha_nacimiento>18/11/1928</fecha_nacimiento>
+                <direccion >
+                    <tipos_de_via>Calle</tipos_de_via>
+                    <nombre_via>Reptiliano</nombre_via>
+                    <codigo_postal>31021</codigo_postal>
+                    <pais>Sion</pais>
+                
+                </direccion>
+            </Programador>
+            <Programador id="D2">
+                <DNI>87654321Z</DNI>
+                <nombre>Señor</nombre>
+                <apeliidos>Tartaria</apeliidos>
+                <fecha_nacimiento>20/1/1953</fecha_nacimiento>
+                <direccion>
+                    <tipos_de_via>Plaza</tipos_de_via>
+                    <nombre_via>Antartida</nombre_via>
+                    <codigo_postal>31221</codigo_postal>
+                    <pais>Tartaria</pais>
+                </direccion>
+            </Programador>  
+    </lista_programadores>
+    <compañia id="D3">
+            <Nombre>Atlus, P Studio</Nombre>
+            <NIF>34353535253US</NIF>
+            <direccion>
+                    <tipos_de_via>Bulevard</tipos_de_via>
+                    <nombre_via>Shibuya</nombre_via>
+                    <codigo_postal>34465</codigo_postal>
+                    <pais>California</pais>
+            </direccion>
+
+    </compañia>
+    </videojuego>
