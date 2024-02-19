@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ciudad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "restricciones.XSD" codigo_identificador_ciudad="AB-12345">
+<Nombre>Madrid</Nombre>
+<Poblacion>50000</Poblacion>
+<alcalde edad="58">
+    <nombre>Pepe</nombre>
+    <apellido>Costas Huawei</apellido>
+    <telefono>+34456123123</telefono>
+    <Tarjeta_credito>1234567890123456</Tarjeta_credito>
+    <Correo_electronico>alcalde@example.com</Correo_electronico>
+</alcalde>
+<funcionarios>
+    <funcionario Id="abc123">
+        <Nombre_completo>Felipoide</Nombre_completo>
+        <Codigo_postal>28031</Codigo_postal>
+        <fecha_nacimiento>01/02/1995</fecha_nacimiento>
+        <contrasenia>A23@23232323</contrasenia>
+        <Cuenta_bancaria>ES9876 5432 1098 7654</Cuenta_bancaria>
+
+    </funcionario>
+</funcionarios>
+</Ciudad>
