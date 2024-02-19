@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <form action="dasdadadsa" method="get">
+    <fieldset>
+        <legend><h3>Datos personales</h3></legend>
+
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre" placeholder="Escriba_su_nombre" required >
+        <br/>
+        <br/>
+        <label for="pass">PassWord</label>
+        <input id="pass" type="password" name="password"placeholder="Escriba_su_contraseña">
+        <br/>
+        <br/>
+        <label for="direccion">Dirección de entrega </label>
+        <input id="direccion" name="direccion de entreaga" type="text"placeholder="Escriba_su_dirección">
+        <br/>
+        <br/>
+        <label for="telefono" >Numero de teléfono</label>
+        <input id="telefono" type="tel" name="telefono" placeholder="Escriba_su_teléfono " required>
+        <br/>
+        <br/>
+        <label for="Correo">Correo electrónico</label>
+        <input id="Correo" type="email" name="correo electrónico" placeholder="Escriba _su_correo">
+        <br/>
+        <br/>
+        <label for="edad" >Edad</label>
+        <input id="edad" type="date" name="edad" placeholder="Escriba_su_edad" required >
+        <br/>
+        <br/>
+
+        <legend><h3>Tamaño pizza</h3></legend>
+        
+        <label for="pequeña">Pizza pequeña</label>
+        <input id="pequeña" type="radio" name="tamaño" >
+        <br/>       
+        <label for="mediana">Pizza mediana</label>
+        <input id="mediana" type="radio" name="tamaño" >
+        <br/>       
+        <label for="grande">Pizza grande</label>
+        <input id="grande" type="radio" name="tamaño" >
+        <br/>
+        <br/>
+
+        <legend><h3>Tipo de masa</h3></legend>
+        <label for="pequeña">Masa pequeña</label>
+        <input id="pequeña" type="radio" name="tipo_de_masa" >
+        <br/>       
+        <label for="mediana">Masa mediana</label>
+        <input id="mediana" type="radio" name="tipo_de_masa" >
+        <br/>       
+        <label for="grande">Masa grande</label>
+        <input id="grande" type="radio" name="tipo_de_masa" >
+        <br/>
+        <br/>
+
+        <legend><h3>Selecciona los ingredientes</h3></legend>
+        <label for="pepperoni">Pepperoni</label>
+        <input id="pepperoni" type="checkbox" name="ingredientes" >
+        <br/>       
+        <label for="judías verdes">Judías verdes</label>
+        <input id="judías verdes" type="checkbox" name="ingredientes" >
+        <br/>       
+        <label for="jamón">Jamón</label>
+        <input id="jamón" type="checkbox" name="ingredientes" >
+        <br/>
+        <label for="alcaparras">Alcaparras</label>
+        <input id="alcaparras" type="checkbox" name="ingredientes" >
+        <br/>       
+        <label for="aceitunas">Aceitunas</label>
+        <input id="aceitunas" type="checkbox" name="ingredientes" >
+        <br/>       
+        <label for="cebolla">Cebolla</label>
+        <input id="cebolla" type="checkbox" name="ingredientes" >
+        <br/>
+        <label for="salchicha">Salchicha</label>
+        <input id="salchicha" type="checkbox" name="ingredientes" >
+        <br/>
+        <label for="piña">Piña</label>
+        <input id="piña" type="checkbox" name="ingredientes" >
+        <br/>
+        <br/>
+
+        <legend><h3>Elige la salsa</h3></legend>     
+        <label for="tomate">Tomate</label>
+        <input id="tomate" type="radio" name="salsa" >
+        <br/>       
+        <label for="barbacoa">Barbacoa</label>
+        <input id="barbacoa" type="radio" name="salsa" >
+        <br/>       
+        <label for="pesto">Pesto</label>
+        <input id="pesto" type="radio" name="salsa" >
+        <br/>
+        <label for="sin salsa">Sin salsa</label>
+        <input id="sin salsa" type="radio" name="salsa" >
+        <br/>
+        <br/>
+        <label for="observaciones">Observaciones: </label>
+        <br/>
+        <textarea style="resize: none;" rows="5" cols="80" name="observaciones"></textarea>
+        <br/>
+        <br/>
+        <legend><h3>Metodo de pago</h3></legend> 
+        <select name="metodo de pago">
+            <option value="MON">Efectivo</option>
+            <option value="TUE">Tarjeta de credito</option>
+            <option value="WED" selected>Paypal</option>
+            
+        </select>
+        <br/>
+        <br/>
+        <legend><h3>Enviar pedido</h3></legend>      
+        <label for="terminos">¿Acepta los terminos de uso? </label>
+        <br/>	
+            He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+        <br/>	
+        <a href="otrapagina.html" target="_blank">Click aqui para ver las condciones del servicio</a>
+        <br/>	
+        <label for="enviar">Enviar pedido</label>
+        <input id="enviar" type="submit">
+        <br/>
+        <label for="reset">Limpiar Formulario</label>
+        <input id="reset" type="reset" name="Resetear">
+
+    </fieldset>
+</form>
+<!--
+    Estoo es lo que se ve cuando lo emvias con el metodo Get
+file:///C:/Users/UpgradeHub/Desktop/LMSGI/WsLMGSIGuillermo/03_Deberes/dasdadadsa?nombre=Tony+Stark&password=adasdasda&direccion+de+entreaga=gtsdfsdf&telefono=
+23232323&correo+electr%C3%B3nico=ggdfgd%40fffs&edad=1998-05-
+09&tama%C3%B1o=on&tipo+de+masa=on&ingredientes=on&ingredientes=on&ingredientes=on&ingredientes=on&salsa=on&observaciones=dffsfs&metodo+de+pago=WED
+------------------------------------------------------
+------------------------------------------------------
+ESto es lo que pone cuando lo envias con el metodo Post
+file:///C:/Users/UpgradeHub/Desktop/LMSGI/WsLMGSIGuillermo/03_Deberes/dasdadadsa
+-->
+
+
+
+</body>
+</html>
