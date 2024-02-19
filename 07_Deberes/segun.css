@@ -1,0 +1,24 @@
+.inline{
+    display: inline;
+    background-color: blue;
+    font-size: 30px;
+
+}
+.block{
+    display: block;
+    background-color: chartreuse;
+    font-size: 20px;
+
+}
+.oculto{
+    display: none;
+    background-color: red;
+    font-size: 20px;
+
+}
+.inline_Block{
+    display: inline-block;
+    width: 30px;
+    
+   
+}
