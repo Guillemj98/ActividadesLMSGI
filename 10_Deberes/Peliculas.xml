@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pelis  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "peliculas.xsd">
+    <nombre>Videoclub</nombre>
+        <seccion>
+            <pelicula>
+                <titulo>Guerra de los mundos</titulo>
+                <autor>Miyazaki</autor>
+                <resumen>Cosas de monos</resumen>
+                <compania>
+                    <nombre>Sony</nombre>
+                    <ciudad>Califronia</ciudad>
+                </compania>
+            </pelicula>
+            <pelicula>
+                <titulo>Kill Bill</titulo>
+                <autor>Tarantino</autor>
+                <resumen>Espadas</resumen>
+                <compania>
+                    <nombre>Perex</nombre>
+                    <ciudad>Mexico DC</ciudad>
+                </compania>
+            </pelicula>
+        </seccion>
+        <seccion>
+            <pelicula >
+              <titulo>Cien años de soledad</titulo>
+              <autor>Gabriel García Márquez</autor>
+              <anio>1967</anio>
+              <resumen>La historia de la familia Buendía en Macondo.</resumen>
+              <compania>
+                <nombre>Ediciones Macondo</nombre>
+                <ciudad>Bogotá</ciudad>
+              </compania>
+            </pelicula>
+          </seccion>
+          <seccion>
+            <pelicula>
+              <titulo>1984</titulo>
+              <autor>George Orwell</autor>
+              <resumen>Un futuro distópico donde el pensamiento está controlado.</resumen>
+              <compania>
+                <codigo>ED45TR</codigo>
+                <nombre>Editorial Distopía</nombre>
+                <ciudad>Londres</ciudad>
+              </compania>
+            </pelicula>
+            </seccion>
+            <seccion>
+            <pelicula>
+              <titulo>Fundación</titulo>
+              <autor>Isaac Asimov</autor>
+              <anio>1951</anio>
+              <resumen>La historia de la Fundación para prever el futuro galáctico.</resumen>
+              <compania>
+                <nombre>Ediciones Galácticas</nombre>
+                <ciudad>Nueva York</ciudad>
+              </compania>
+            </pelicula>
+          </seccion>
+    </Pelis>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

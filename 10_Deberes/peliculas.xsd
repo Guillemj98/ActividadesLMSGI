@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Pelis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="seccion" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="pelicula" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string" />
+                                        <xs:element name="autor" type="xs:string" />
+                                        <xs:element name="anio" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                        <xs:element name="resumen" type="xs:string" />
+                                        <xs:element name="compania">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="codigo" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                                    <xs:element name="nombre" type="xs:string"/>
+                                                    <xs:element name="ciudad" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+
+                                        </xs:element>
+                                            
+                                    </xs:sequence>
+                                </xs:complexType>
+
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
