@@ -1,0 +1,33 @@
+.Platano{
+    list-style-image:url(imagenesIcono/platano.png) 
+}
+.Manzana{
+    list-style-image:url(imagenesIcono/manzana.png)
+}
+.Chirimoya{
+    list-style-image:url(imagenesIcono/chirimoya.png)
+}
+ol{
+    list-style-type:upper-alpha;
+}
+ul{
+    list-style-type: square;
+}
+.romanos{
+    list-style-type: upper-roman;
+}
+h1{
+    color: white; 
+    animation: changeColor 0.1s infinite;
+}
+@keyframes changeColor {
+    0% {
+      color: white; /* Color inicial */
+    }
+    50% {
+      color: white; /* Color a la mitad de la animación */
+    }
+    100% {
+      color: black; /* Color al final de la animación */
+    }
+  }

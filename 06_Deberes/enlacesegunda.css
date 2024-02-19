@@ -1,0 +1,16 @@
+.tnr{
+    border: 3px blue solid;
+}
+h1{
+    border: 3px;
+    border-color: blue;
+    border-style: solid;
+}
+#especial{
+    border-style: solid;
+    border-top-width: 5px;
+    border-bottom-color: yellow;
+    border-left-width: 20px;
+    border-right-color: blueviolet;
+}
+    
