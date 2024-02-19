@@ -1,0 +1,70 @@
+/* Resetear los márgenes y relleno del cuerpo */
+body {
+  
+    background-image: url(imagenes/istockphoto-184914535-612x612.jpg);
+    
+  }
+
+.titulo{
+   font-size: 200px;
+   font-family: 'Times New Roman', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+   animation: cambioColor 10s linear infinite ;
+   
+}
+@keyframes cambioColor {
+    0% {
+      color: red;
+    }
+    16.666% {
+      color: orange;
+    }
+    33.333% {
+      color: yellow;
+    }
+    50% {
+      color: green;
+    }
+    66.666% {
+      color: blue;
+    }
+    83.333% {
+      color: indigo;
+    }
+    100% {
+      color: violet;
+    }
+  }
+  p{
+    word-spacing: 200px;
+    letter-spacing: 200px;
+    font-size: 200px;
+    text-transform:uppercase;
+    animation-name: parpadeo;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+ 
+  
+  
