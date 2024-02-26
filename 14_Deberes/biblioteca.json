@@ -2,9 +2,11 @@
     "biblioteca":{
         "codigo" : "B_67",
         "nombre": "Biblioteca nacional",
-        "seccion": {
+        "secciones": [
+        {"seccion": {
             "categoria" : "Aventura",
-            "libro1" :{
+            "libros" : [
+            {"libro" :{
                 "id" : "L1",
                 "titulo" : "El Señor De Los Anillos",
                 "autor": "",
@@ -13,8 +15,9 @@
                     "nombre" : "Editorial Fantástica",
                     "ciudad" : "Barcelona"
                 }
-            },
-            "libro2" :{
+            }
+        },
+            {"libro" :{
                 "id" : "L2",
                 "titulo" : "Harry Potter y la piedra filosofal",
                 "autor": "J.K. Rowling",
@@ -23,8 +26,9 @@
                     "nombre" : "Editorial Mágicas",
                     "ciudad" : "Londres"
                 }
-            },
-            "libro3" :{
+            }
+        },
+            {"libro" :{
                 "id" : "L3",
                 "titulo" : "Cien años de soledad",
                 "autor": "Gabriel García Márquez",
@@ -35,10 +39,14 @@
                     "ciudad" : "Barcelona"
                 }
             }
-        },
-        "seccion2" : {
+        }
+    ]
+        }
+    },
+        {"seccion2" : {
             "categoria" : "Ciencia-ficción",
-            "libro4" :{
+            "libros2" : [
+            {"libro4" :{
                 "id" : "L4",
                 "titulo" : "1984",
                 "autor": "George Orwell",
@@ -47,8 +55,9 @@
                     "nombre" : "Editorial Distopía",
                     "ciudad" : "Londres"
                 }
-            },
-            "libro5" :{
+            }
+        },
+            {"libro5" :{
                 "id" : "L5",
                 "titulo" : "Fundación",
                 "autor": "Isaac Asimov",
@@ -58,8 +67,12 @@
                     "ciudad" : "Nueva York"
                 }
             }
+        }
+        ]
 
         }
+    }
+    ]
 
     }
 }
