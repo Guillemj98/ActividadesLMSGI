@@ -1,0 +1,65 @@
+{
+    "biblioteca":{
+        "codigo" : "B_67",
+        "nombre": "Biblioteca nacional",
+        "seccion": {
+            "categoria" : "Aventura",
+            "libro1" :{
+                "id" : "L1",
+                "titulo" : "El Señor De Los Anillos",
+                "autor": "",
+                "resumen": "Un viaje épico para destruir un anillo mágico.",
+                "editorial":{
+                    "nombre" : "Editorial Fantástica",
+                    "ciudad" : "Barcelona"
+                }
+            },
+            "libro2" :{
+                "id" : "L2",
+                "titulo" : "Harry Potter y la piedra filosofal",
+                "autor": "J.K. Rowling",
+                "resumen": "Las aventuras de un joven mago en Hogwarts.",
+                "editorial":{
+                    "nombre" : "Editorial Mágicas",
+                    "ciudad" : "Londres"
+                }
+            },
+            "libro3" :{
+                "id" : "L3",
+                "titulo" : "Cien años de soledad",
+                "autor": "Gabriel García Márquez",
+                "resumen": "Un viaje épico para destruir un anillo mágico.",
+                "anio" : "1967",
+                "editorial":{
+                    "nombre" : "Editorial Fantástica",
+                    "ciudad" : "Barcelona"
+                }
+            }
+        },
+        "seccion2" : {
+            "categoria" : "Ciencia-ficción",
+            "libro4" :{
+                "id" : "L4",
+                "titulo" : "1984",
+                "autor": "George Orwell",
+                "resumen": "Un futuro distópico donde el pensamiento está controlado.",
+                "editorial":{
+                    "nombre" : "Editorial Distopía",
+                    "ciudad" : "Londres"
+                }
+            },
+            "libro5" :{
+                "id" : "L5",
+                "titulo" : "Fundación",
+                "autor": "Isaac Asimov",
+                "resumen": "La historia de la Fundación para prever el futuro galáctico",
+                "editorial":{
+                    "nombre" : "Ediciones Galácticas",
+                    "ciudad" : "Nueva York"
+                }
+            }
+
+        }
+
+    }
+}
