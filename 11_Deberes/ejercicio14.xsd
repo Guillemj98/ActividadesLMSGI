@@ -59,8 +59,8 @@
                                         <xs:element name="salario" >
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:integer">
-                                                    <xs:minExclusive value="900"></xs:minExclusive>
-                                                    <xs:maxExclusive value="5000"></xs:maxExclusive>
+                                                    <xs:minInclusive value="900"></xs:minInclusive>
+                                                    <xs:maxInclusive value="5000"></xs:maxInclusive>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
