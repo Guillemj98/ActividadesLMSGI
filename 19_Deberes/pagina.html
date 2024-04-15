@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sentecias, bucles y condocionales</title>
-    <script type="javascript" src="funcionalidad.js"></script>
+    <title>Sentecias, bucles y condicionales</title>
+    <script type="text/javascript" src="funcionalidad.js"></script>
 </head>
 <body style="background-color: brown;" >
+
+
+
+<div style="border: black 2px solid;">
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Contador de numeros pares entre un rango establecido por usted
     </h3>
@@ -15,10 +19,15 @@
     <label><b>Pon el segundo numero del rango: </b></label><input type="text" id="SegundoNumeroRango">
     <br/>
     
-    <button >Calcular</button>
+    <button onclick="contadorPares()">Calcular</button>
     <br/>
     <label ><b>RESULTADO: </b></label><input type="text" id="ResultadoPares">
-    
+</div>
+
+
+
+
+<div style="border: black 2px solid;">
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Conversor de temperatura
     </h3>
@@ -30,11 +39,14 @@
     <br/>
     <input type="text" id="TemperaturaConvertir" placeholder="Temperatura">
     <br/>
-    <button >Calcular</button>
+    <button onclick="conversorTemperatura()">Calcular</button>
     <br/>
-    <input type="text" id="ResultadoTemperatura" placeholder="Resultado">
-    
-    
+    <input type="text" id="ResultadoTemperatura" placeholder="Resultado">  
+</div> 
+
+
+
+<div style="border: black 2px solid;">
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Adivina el numero mágico
     </h3>
@@ -42,9 +54,15 @@
     <p><b>Suerte!!!!</b></p>
     <label>Numero a introducir: </label><input type="text" id="NumeroAleatorio">
     <br/>
-    <button >Adivinar</button>
+    <button onclick="advinaNumero()" >Adivinar</button>
     <br/>
-    <textarea name="" id="CalienteCaliente" cols="30" rows="10" placeholder="Menor/Mayor"></textarea>    
+    <textarea name="" id="CalienteCaliente" cols="30" rows="10" placeholder="Menor/Mayor"></textarea>   
+</div>
+
+
+
+
+<div style="border: black 1px solid;">
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Cambia el color de la pantalla
     </h3>
@@ -52,9 +70,14 @@
         Introduce un color en hexadecimal para cambiar el color de fondo de pantalla
     </p>
     <marquee behavior="" direction="" style="font-size: 0.2cm;">Busca en google si no sabes</marquee>
-    <label >Introduce color formato Hexadecimal</label><input type="text" id="CambiarColor">
-    <br/>
-    <button>Change color</button>
+    <input type="text" name="" id="hexa" placeholder="Ejemplo: #C2DFE6">
+    <button onclick="cambiarColor(hexa.value)">Change color</button>
+</div>
+
+
+
+
+<div style="border: black 2px solid;">
 
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Introduce el usuario y contraseña
@@ -66,26 +89,38 @@
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password">
         <br>
-        <button type="submit">Entrar</button>
+        <button onclick="ingresarUsuarioPassword()">Entrar</button>
     </form>
-    
+</div>
+
+
+
+
+<div style="border: black 2px solid;">
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Verificador de numeros primos
     </h3>
     <p><b>Introduce un numero y te digo si es primo</b></p>
-    <label ><b>Numero: </b></label><input type="text" id="Cambiar color">
-    <button >Calcular</button>
+    <label ><b>Numero: </b></label><input type="text" id="numeroPrimo">
+    <button onclick="numeroPrimo()">Calcular</button>
     <br/>
     <input type="text" placeholder="Resultado" id="ResultadoPrimos">
-    
+</div>
+
+
+
+
+
+<div style="border: black 2px solid;"> 
     <h3 style="position: sticky; background-color: green; text-align: center;">
         Generador de secuencia de Fibonacci
     </h3>
     <marquee behavior="" direction=""><p>Te pongo numero de la secuencia de Fibonacci equivalente al numero que introduzcas</p></marquee>
     <label><b>Numero: </b></label><input type="text" id="NumeroSecuenciaFibonacci">
-    <button >Calcular</button>
+    <button onclick="secuenciaFibonacci()">Calcular</button>
     <br/>
     <br/>
-    <textarea name="" id="AreaFibonacci" cols="30" rows="10" placeholder="Secuencia Fibonacci"></textarea>
+    <textarea name="" id="AreaFibonacci" cols="30" rows="10" placeholder="SecuenciaFibonacci"></textarea>
+</div>  
 </body>
 </html>
